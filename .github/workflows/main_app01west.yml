@@ -33,7 +33,7 @@ jobs:
           path: .
 
   deploy:
-    runs-on: LinuxFxVersion
+    runs-on: ubuntu-latest
     needs: build
     environment:
       name: 'Production'
